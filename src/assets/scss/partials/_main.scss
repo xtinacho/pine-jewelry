@@ -1,5 +1,5 @@
 body {
-	background: #fff;
+	background: url("../media/background.jpg") fixed;
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
@@ -12,16 +12,22 @@ h2 {
 	font-weight: 400;
 	color: #000;
 }
+h4 {
+	text-align: center;
+	font-weight: 400;
+	color: #d9d9d9;
+}
 p{
 	text-align: center;
 	padding: 20px;
 	font-size: 12px;
 	font-weight: 300;
-	color: #666;
+	color: #999;
+	font-style: italic;
 }
 div.splash {
 	// temporary
-	background: #000;
+	background: transparent;
 	padding: 50px 0px 0px;
 	text-align: center;
 	img {
@@ -63,6 +69,7 @@ div.splash {
 	text-align-last: center;
 }
 div.sec-2 {
+	background: #fff;
 	overflow: hidden;
 	img {
 		width: 100%;
@@ -78,6 +85,7 @@ div.beads {
 	} 
 }
 div.sec-3 {
+	background: #fff;
 	img {
 		text-align: center;
 		padding: 17px;
@@ -91,10 +99,35 @@ div.sec-4 {
 		color: #fff;
 	}
 }
+.custom {
+	font-size: 22px;
+	font-weight: 300;
+	color: #999;
+}
+.coupon {
+	font-size: 22px;
+	font-weight: 400;
+	color: #666;
+}
+a.shop-btn {
+	background: $gold;
+	padding: 18px 22px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+h6 {
+	font-size: 11px;
+	font-weight: 300;
+	font-color: #999;
 
-
-
-
+}
+a.updated {
+	
+}
 div {
 	border: 1px solid black;
 }
