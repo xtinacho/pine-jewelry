@@ -1,5 +1,6 @@
 body {
-	background: url("../media/background.jpg") fixed;
+	background: url("../media/background.jpg") fixed center;
+	text-align: center;
 	padding: 0px;
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
@@ -14,6 +15,7 @@ h2 {
 }
 h4 {
 	text-align: center;
+	margin-bottom: 0px;
 	font-weight: 400;
 	color: #d9d9d9;
 }
@@ -23,12 +25,10 @@ p{
 	font-size: 12px;
 	font-weight: 300;
 	color: #999;
-	font-style: italic;
 }
 div.splash {
-	// temporary
 	background: transparent;
-	padding: 50px 0px 0px;
+	padding: 15px 0px 0px;
 	text-align: center;
 	img {
 		width: 100px;
@@ -67,6 +67,7 @@ div.splash {
     -moz-hyphens: auto;
   	hyphens: auto;
 	text-align-last: center;
+	padding: 30px 20px;
 }
 div.sec-2 {
 	background: #fff;
@@ -75,6 +76,14 @@ div.sec-2 {
 		width: 100%;
 		height: auto;
 	}
+}
+.icons {
+	padding: 20px 10px;
+}
+.far, .fas {
+	margin: 8px;
+	font-size: 29px;
+	color: #b0b0b0;
 }
 div.beads {
 	overflow: hidden;
@@ -99,6 +108,9 @@ div.sec-4 {
 		color: #fff;
 	}
 }
+.p-grid {
+	font-style: italic;
+}
 .custom {
 	font-size: 22px;
 	font-weight: 300;
@@ -120,14 +132,41 @@ a.shop-btn {
 	letter-spacing: 2px;
 }
 h6 {
+	text-align: center;
 	font-size: 11px;
 	font-weight: 300;
 	font-color: #999;
 
 }
-a.updated {
-	
+.sec-6 {
+	margin-bottom: 100px;
 }
-div {
-	border: 1px solid black;
+a.updated {
+	background: #999;
+	tex-align: center;
+	padding: 19px 86px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.footer {
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	font-weight: 300;
+	padding: 10px;
+	margin: 20px;
+	color: #999;
+	text-decoration: none;
+}
+.social {
+	padding-bottom: 60px;
+}
+.fab {
+	margin: 25px;
+	font-size: 18px;
+	color: $gold;
 }
