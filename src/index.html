@@ -8,11 +8,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="main.js"></script>
 </head>
 <body>
   <div class="wrapping">
-    <nav></nav>
+    <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    </nav>
     <div class="splash">
       <img src="./assets/media/pine-jewelry-logo.png" alt="logo" class="logo">
       <h1>Pine Jewelry</h1>
@@ -97,7 +107,7 @@
     </div>
     <div class="sec-6">
       <form>
-        <input type="email" name="email" class="email" value="enter your email">
+        <input type="email" name="email" class="email" placeholder="enter your email">
       </form>
       <br>
       <a href="#" class="updated">Keep Updated</a>

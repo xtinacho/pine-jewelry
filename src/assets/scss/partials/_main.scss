@@ -32,16 +32,18 @@ div.splash {
 	text-align: center;
 	img {
 		width: 100px;
+		margin-top: -55px;
 	}
 	h1 {
 		font-size: 30px;
 		font-weight: 400;
 		color: #fff;
+		text-shadow: 2px 2px #000;
 	}
 	p {
 		padding: 30px 35px;
 		font-size: 14px;
-		font-weight: 600;
+		font-weight: 400;
 		color: #fff;
 	}
 	h2 {
@@ -115,7 +117,7 @@ div.sec-4 {
 	.grid {
 		justify-content: center;
 		.row-1, .row-2  {
-			display: flex;
+			display: flex-wrap;
 			flex-direction: row;
 			padding: 10px;
 			img {
