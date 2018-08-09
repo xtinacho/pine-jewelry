@@ -7,7 +7,7 @@ body {
 	-webkit-font-smoothing: antialised;
 }
 h2 {
-	padding: 30px;
+	padding: 20px 30px;
 	text-align: center;
 	font-size: 20px;
 	font-weight: 400;
@@ -46,6 +46,7 @@ div.splash {
 	}
 	h2 {
 		font-weight: 400;
+		padding-top: 0px;
 		color: #fff;
 		text-transform: uppercase;
 	}
@@ -69,6 +70,10 @@ div.splash {
 	text-align-last: center;
 	padding: 30px 20px;
 }
+i.play {
+	font-size: 85px;
+	color: #fff;
+}
 div.sec-2 {
 	background: #fff;
 	overflow: hidden;
@@ -82,7 +87,7 @@ div.sec-2 {
 }
 .far, .fas {
 	margin: 8px;
-	font-size: 29px;
+	font-size: 22px;
 	color: #b0b0b0;
 }
 div.beads {
@@ -107,11 +112,25 @@ div.sec-4 {
 		font-weight: 400px;
 		color: #fff;
 	}
+	.grid {
+		justify-content: center;
+		.row-1, .row-2  {
+			display: flex;
+			flex-direction: row;
+			padding: 10px;
+			img {
+				width: 145px;
+				height: auto;
+			}
+		}
+	}
+	
 }
 .p-grid {
 	font-style: italic;
 }
 .custom {
+	margin-top: -75px;
 	font-size: 22px;
 	font-weight: 300;
 	color: #999;
@@ -141,6 +160,16 @@ h6 {
 .sec-6 {
 	margin-bottom: 100px;
 }
+input.email {
+	text-align: center;
+	padding: 19px 74px;
+	margin: 6px;
+	border: 2px solid #999;
+	font-size:  14px;
+	font-weight: 300;
+	font-style: italic;
+	color: #999;
+}
 a.updated {
 	background: #999;
 	tex-align: center;
@@ -158,7 +187,7 @@ a.updated {
 	font-size: 12px;
 	font-weight: 300;
 	padding: 10px;
-	margin: 20px;
+	margin: 10px;
 	color: #999;
 	text-decoration: none;
 }
