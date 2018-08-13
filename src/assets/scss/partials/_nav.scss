@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: $gold;
     text-align: center;
@@ -15,21 +15,17 @@
     background-color: transparent;
     color: #fff;
 }
-.active {
-    background-color: transparent;
-    color: white;
-}
 .topnav .icon {
     display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
 }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 599px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
