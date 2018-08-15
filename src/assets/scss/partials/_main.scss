@@ -3,7 +3,10 @@ body {
 	background-color: #fff;
 	@media (min-width: 850px){
 		background-color: #ededed;
-	  }
+	}
+	@media (min-width: 1385px){
+		background-size: cover;
+	}
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
@@ -181,7 +184,6 @@ div.sec-4 {
 			}
 		}
 	}
-	
 }
 .p-grid {
 	font-style: italic;
@@ -257,6 +259,9 @@ a.updated {
 	margin: 10px;
 	color: #999;
 	text-decoration: none;
+	@media (min-width: 800px){
+		display: inline-block;
+	}
 }
 .social {
 	padding-bottom: 60px;
